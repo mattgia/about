@@ -1,0 +1,6 @@
+export const resumeUrl = 'https://1drv.ms/b/s!AmZThQ2mIwYTlFKhRtF-HNHdKxkj?e=7T5bCs'
+export const name = 'Matthew Giaconelli'
+export const title = 'Software Engineer'
+export const experience = '4+ Years of Experience'
+export const email = 'mattgia3@gmail.com'
+export const linkedin = 'https://www.linkedin.com/in/mgiaconelli/'
