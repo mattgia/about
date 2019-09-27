@@ -1,18 +1,21 @@
 import React from 'react';
 import './App.css';
-import { Container } from '@material-ui/core';
+import { Container, MuiThemeProvider } from '@material-ui/core';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import theme from './theme/muiTheme';
 
 function App() {
   return (
-    <div className="App">
-      <Container className="main" maxWidth="md">
-      <Header></Header>
-        content
+    <MuiThemeProvider theme={theme}>
+      <div className="App">
+        <Container className="main" maxWidth="md">
+          <Header></Header>
+          content
         <Footer></Footer>
-      </Container>
-    </div>
+        </Container>
+      </div>
+    </MuiThemeProvider>
   );
 }
 

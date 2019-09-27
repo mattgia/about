@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '@material-ui/core/Icon';
-import { Container } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import { email, linkedin, resumeUrl } from '../consts'
 
 const links = [
@@ -36,7 +36,7 @@ function FooterIcon(props) {
     <div style={{display: 'inline-block', padding: '5px', textAlign: "center"}}>
         <a href={props.link} >
         <div><Icon>{ props.icon }</Icon></div>
-        <div>{ props.label }</div>
+        <Typography variant='subtitle1'>{ props.label }</Typography>
         </a>
     </div>
     )
