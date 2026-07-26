@@ -562,14 +562,6 @@ function GitHubIcon() {
   );
 }
 
-function Sparkle() {
-  return (
-    <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" style={{ fontSize: '0.6em', verticalAlign: 'middle', marginRight: 4 }}>
-      <path d="M12 2l1.5 6.5L20 9l-5 4.5L16.5 20 12 15.5 7.5 20 9 13.5 4 9l6.5-.5z" />
-    </svg>
-  );
-}
-
 const typedSubtitle =
   'Senior Software Engineer building impactful products across fintech, e-commerce, and enterprise.';
 
@@ -589,7 +581,7 @@ function App() {
           <div className={classes.hero}>
             <Avatar className={classes.heroAvatar}>MG</Avatar>
             <Typography className={classes.name}>
-              <Sparkle /> Matthew Giaconelli <Sparkle />
+              Matthew Giaconelli
             </Typography>
             <Typography className={classes.subtitle}>
               <span>{typed}</span>
